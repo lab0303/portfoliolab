@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.1",
+  "description": "A clean, beautiful and responsive portfolio",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+ 
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.1",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1",
+    "vanilla-tilt": "^1.8.1"
+  }
+}
